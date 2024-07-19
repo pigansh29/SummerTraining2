@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height:100vh;
+        }
+
+        .box {
+            height: 400px;
+            width: 500px;
+            box-shadow: 0px 0px 10px rgb(180,179,179);
+            padding:5px;
+            /* border: 2px solid black; */
+            overflow: hidden;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .content {
+            /* border: 2px solid black; */
+            padding: 10px solid black;
+            padding: 10px;
+            font-family: sans-serif;
+            text-align: justify;
+            background-color: white;
+            transition: all 1s;
+        }
+        .box:hover .content{
+            transform: translateY(-200px);
+        }
+        h1,h2,p{
+            margin:5px 0px;
+        }
+        </style>
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="https://plus.unsplash.com/premium_photo-1686090449200-57266c6623a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="cat">
+        <div class="content">
+            <h1>Title-</h1>
+            <h2></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptate eveniet magnam, debitis esse
+                explicabo quia dolores facilis voluptatum quam! Doloribus officia atque odit tenetur quis. Temporibus
+                dolorem expedita quibusdam quaerat iusto quia, est omnis mollitia deserunt vitae, iste beatae! Lorem ipsum
+                 dolor sit amet, consectetur adipisicing elit. Minima, provident?Lorem ipsum dolor, sit amet consectetur 
+                 adipisicing elit. Est, repudiandae.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
